@@ -1,0 +1,121 @@
+@charset "utfi-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.914);
+}
+
+
+
+/* @media screen and (max-width:1000px ){
+    #video{
+        display: block;
+        margin:5px auto;
+       
+        max-width: 500px;
+        height: 300px;
+    }
+
+} */
+
+
+@media screen and (max-width:500px ){
+    /* Sessão dos trailers */
+#Trailers{
+  width: 100%;
+  min-height: 360px;
+  background-color: rgb(48, 56, 64);
+
+}
+
+/* Nome Do filme */
+#Trailers h1{
+
+background-color: rgb(32, 32, 32);
+color: rgb(191, 192, 186);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 40px;
+text-align: center;
+padding-top:2%;
+
+}
+/* Video da sessão */
+#video{
+    display: block;
+    margin:5px auto;
+    width: 100%;
+    height: 300px;
+}
+/* sessão elenco */
+#elenco{
+    height:1300px;
+background-color: rgba(47, 48, 42, 0.728);
+/* background-color: rgb(54, 52, 49); */
+
+
+}
+/* titulo elenco */
+#elenco h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    background-color: rgb(121, 122, 124);
+
+}
+#elenco a{
+    text-decoration: none;
+    color: rgba(203, 198, 198, 0.997);
+    font-size: 1.2em;
+    font-weight: 900;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 5px;
+
+}
+
+/* Fotos do eleno na pagina inicaial */
+.imgElenco{
+    display: block;
+  margin: auto;
+    width: 150px;
+    height: 180px;
+    
+}
+.fundoImg{
+
+margin: auto;
+    padding: 10px;
+    width: 56%;
+    background-color: rgba(47, 46, 46, 0.92);
+    margin-bottom: 5px;
+    /* background-color: rgba(79, 79, 79, 0.92); */
+
+    
+}
+
+
+
+
+
+/* foto cris */
+#imgChris{
+    max-width: 200px;
+    height:200px;
+    display: block;
+    margin: auto;
+}
+#textChris{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(176, 185, 199);
+
+    width: 80%;
+    margin:0.5em auto;
+}
+
+
+
+}
