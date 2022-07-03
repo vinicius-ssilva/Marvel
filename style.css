@@ -52,6 +52,7 @@ padding-top:2%;
 /* sessão elenco */
 #elenco{
     height:1300px;
+    width: 100%;
 background-color: rgba(47, 48, 42, 0.728);
 /* background-color: rgb(54, 52, 49); */
 
