@@ -81,15 +81,15 @@ margin-top: 5px;
 .imgElenco{
     display: block;
   margin: auto;
-    width: 150px;
-    height: 180px;
+    width: 222px;
+    height: 260px;
     
 }
 .fundoImg{
 
 margin: auto;
     padding: 10px;
-    width: 56%;
+    width: 100%;
     background-color: rgba(47, 46, 46, 0.92);
     margin-bottom: 5px;
     /* background-color: rgba(79, 79, 79, 0.92); */
